@@ -137,6 +137,9 @@ a:any-link {
     
     .insights__p{
         padding-right: 0;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        font-size: 1.5rem;
     }
     
     p {
@@ -167,7 +170,7 @@ a:any-link {
     
     footer {
         margin-bottom: 80px;
-        font-size: 12px;
+        font-size: 24px;
     }
 }
 
@@ -176,7 +179,7 @@ a:any-link {
 @media only screen and (max-width:375px) {
     .container{
         width: 90vw;
-        height: 900px;
+        height: 1000px;
     }
 
     .insights{
@@ -201,13 +204,15 @@ a:any-link {
     
     .insights__p {
         margin-bottom:50px;
+        margin-left: 40px;
     }
     
     p {
         padding: 5px;
         text-align: center;
         letter-spacing: 0.4px;
-        line-height: 22px;
+        line-height: 28px;
+        font-size: 1.5rem;
     }
 
     .insights__footer {
@@ -227,5 +232,10 @@ a:any-link {
     
     .footer__word {
         font-size: 14px;
+    }
+
+    footer {
+        margin-bottom: 80px;
+        font-size: 24px;
     }
 }
