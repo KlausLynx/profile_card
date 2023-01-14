@@ -121,12 +121,12 @@ a:any-link {
         flex-direction: column-reverse;
     }
 
-    .insights{
+    .insights {
         width: 100%;
         height: 60%;
     }  
 
-    .insights__head{
+    .insights__head {
         margin-bottom: 50px;
         padding-right: 0;
     }
@@ -139,6 +139,7 @@ a:any-link {
         padding-right: 0;
         margin-bottom: 50px;
         margin-left: 40px;
+        line-height: 30px;
         font-size: 1.5rem;
     }
     
@@ -179,7 +180,7 @@ a:any-link {
 @media only screen and (max-width:375px) {
     .container{
         width: 90vw;
-        height: 1000px;
+        min-height: 1020px;
     }
 
     .insights{
